@@ -16,6 +16,7 @@ assets/vue/*
 #-------------------------
 /nbproject/
 .idea/*
+.git/*
 
 ## Sublime Text cache files
 *.tmlanguage.cache
@@ -25,3 +26,6 @@ assets/vue/*
 *.sublime-project
 /tests/tests/
 /tests/results/
+
+## nodejs
+package-lock.json

@@ -15,8 +15,6 @@
  * VUE_PORT
  * Change this value according to the server port in vite.config.js
  */
-define('VUE_MODE', 'development');
-define('VUE_PORT', 3000);
 
 function vite($entry)
 {
@@ -27,7 +25,7 @@ function vite($entry)
 
 function is_development()
 {
-    return VUE_MODE == 'development';
+    return VUE_MODE == 'development' || VUE_MODE == 'dev';
 }
 
 // ----------------------

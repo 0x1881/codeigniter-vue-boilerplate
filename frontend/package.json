@@ -2,7 +2,9 @@
   "name": "frontend",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "npm dev": "npm run dev",
+    "npm build": "npm run build",
+    "dev": "vite dev",
     "build": "vite build",
     "serve": "vite preview"
   },

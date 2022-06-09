@@ -9,7 +9,7 @@ import NotFound from '@/pages/NotFound.vue'
 
 const routes = [
   {
-    path: siteUrl + '/site',
+    path: siteUrl,
     alias: [
       siteUrl,
       baseUrl

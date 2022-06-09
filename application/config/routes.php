@@ -59,7 +59,7 @@ $route['translate_uri_dashes'] = FALSE;
  * Valid    : site, site/, site/a, site/a/b, site/a/b/etc...
  * Invalid  : sitemap
  */
-$route['^site(\/(.+)?)?'] = 'vue';
+// $route['^site(\/(.+)?)?'] = 'vue';
 
 /**
  * We will use manual routes only for the API calls
@@ -69,3 +69,5 @@ $route['api/v1/users']['GET'] = 'api/v1/user';
 $route['api/v1/users/(:num)']['GET'] = 'api/v1/user/show/$1';
 $route['api/v1/test-login/(:any)']['POST'] = 'api/v1/auth/test_login/$1';
 $route['api/(.*)'] = '404';
+
+$route['(.*)'] = 'vue';

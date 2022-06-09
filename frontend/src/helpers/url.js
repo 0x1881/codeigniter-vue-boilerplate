@@ -9,7 +9,7 @@ baseUrl = baseUrl.replace(/htt(p|ps):\/\//gi, "");
 const slashIndex = baseUrl.indexOf('/')
 baseUrl = baseUrl.substring(slashIndex)
 
-const siteUrl = baseUrl + 'index.php'
+const siteUrl = baseUrl
 
 export {
   baseUrl,
