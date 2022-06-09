@@ -29,3 +29,4 @@ assets/vue/*
 
 ## nodejs
 package-lock.json
+frontend/package-lock.json
